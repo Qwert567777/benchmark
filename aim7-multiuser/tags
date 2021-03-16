@@ -1,0 +1,504 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADAPT_START	multitask.c	78;"	d	file:
+ALL_FILES	multitask.c	82;"	d	file:
+ARG	num_fcns.c	55;"	d	file:
+A_HEIGHT	num_fcns.c	49;"	d	file:
+A_SIZE	num_fcns.c	51;"	d	file:
+A_WIDTH	num_fcns.c	50;"	d	file:
+BADIOCTL	testerr.h	38;"	d
+BADMEM	testerr.h	36;"	d
+BADPIPE	testerr.h	39;"	d
+BADPROC	testerr.h	40;"	d
+BADTAPE	testerr.h	37;"	d
+BADTTY	testerr.h	35;"	d
+BOTTOM_SPACE	rpt.c	35;"	d	file:
+CARGS	suite.h	/^typedef struct CARGS {$/;"	s
+CC	Makefile	/^CC=cc$/;"	m
+CCOPT	Makefile	/^CCOPT=-O$/;"	m
+CFLAGS	Makefile	/^CFLAGS= $(CCOPT)$/;"	m
+CHILDHZ	suite.h	56;"	d
+CONFIGFILE	suite.h	51;"	d
+CONTINUE	suite.h	59;"	d
+COUNT_BUMP	suite.h	40;"	d
+COUNT_BUMP	suite.h	44;"	d
+COUNT_END	suite.h	41;"	d
+COUNT_END	suite.h	46;"	d
+COUNT_START	suite.h	38;"	d
+COUNT_START	suite.h	43;"	d
+COUNT_ZERO	suite.h	39;"	d
+COUNT_ZERO	suite.h	45;"	d
+CREAT	disk_src.c	/^enum choices { STAT = 0, CREAT, MCHOICE };	\/* encode choices here *\/$/;"	e	enum:choices	file:
+CREAT_MODE	creat-clo.c	60;"	d	file:
+CROSSOVER	multitask.c	76;"	d	file:
+Cargs	suite.h	/^} Cargs;$/;"	t	typeref:struct:CARGS
+DEBUG	testerr.h	47;"	d
+Data_point	rpt.c	/^} Data_point;$/;"	t	typeref:struct:_data_point	file:
+EXTERN	funcal.h	44;"	d
+EXTERN	funcal.h	46;"	d
+EXTERN	funcal.h	55;"	d
+EXTERN	suite.h	133;"	d
+EXTERN	suite.h	36;"	d
+FAKEH	disk_src.c	51;"	d	file:
+FALSE	suite.h	34;"	d
+FATAL	pipe_test.c	60;"	d	file:
+FATAL_SHARED_MEM	pipe_test.c	61;"	d	file:
+FN1	pipe_test.c	57;"	d	file:
+FUNCAL	funcal.c	28;"	d	file:
+GRAPH_HEIGHT	rpt.c	37;"	d	file:
+GRAPH_WIDTH	rpt.c	38;"	d	file:
+INCR	rand.c	40;"	d	file:
+INFINITY	multitask.c	77;"	d	file:
+JUST_TEMP_FILES	multitask.c	81;"	d	file:
+LDOPT	Makefile	/^LDOPT=-lm $/;"	m
+LEFT_MARGIN	rpt.c	36;"	d	file:
+LINE_SIZE	rpt.c	33;"	d	file:
+LINK_LOOP	creat-clo.c	61;"	d	file:
+LIST	suite.h	57;"	d
+LOADNUM	suite.h	58;"	d
+MAXBLK	pipe_test.c	54;"	d	file:
+MAXCMDARGS	multitask.c	56;"	d	file:
+MAXDPTS	multitask.c	83;"	d	file:
+MAXDRIVES	suite.h	54;"	d
+MAXITR	suite.h	53;"	d
+MAXSORTSIZE	num_fcns.c	46;"	d	file:
+MAXSTRINGS	num_fcns.c	45;"	d	file:
+MAXTRIES	num_fcns.c	47;"	d	file:
+MCHOICE	disk_src.c	/^enum choices { STAT = 0, CREAT, MCHOICE };	\/* encode choices here *\/$/;"	e	enum:choices	file:
+MFILES	disk_src.c	52;"	d	file:
+MSCR	disk_src.c	54;"	d	file:
+MULT	rand.c	39;"	d	file:
+MYBUF	disk_src.c	53;"	d	file:
+M_SIZE	num_fcns.c	48;"	d	file:
+Members	suite.h	61;"	d
+NBUFSIZE	suite.h	68;"	d
+NEG	num_fcns.c	57;"	d	file:
+NOCROSSOVER	multitask.c	75;"	d	file:
+NONPRIME	int_fcns.c	34;"	d	file:
+NUM10VALS	num_fcns.c	54;"	d	file:
+NUMVALS	num_fcns.c	53;"	d	file:
+NUM_HEADERS	rpt.c	32;"	d	file:
+NUM_PS_INIT	rpt.c	86;"	d	file:
+OBJS	Makefile	/^OBJS = fillin.o rand.o rtmsec.o $(TASKS)$/;"	m
+ONE_OVER_PI	div.c	37;"	d	file:
+ONE_OVER_PI	mul.c	37;"	d	file:
+OPS_PER_LOOP	add.c	38;"	d	file:
+OPS_PER_LOOP	div.c	38;"	d	file:
+OPS_PER_LOOP	mul.c	38;"	d	file:
+PI	add.c	37;"	d	file:
+PI	div.c	36;"	d	file:
+PI	mul.c	36;"	d	file:
+POS	num_fcns.c	56;"	d	file:
+PRIME	int_fcns.c	33;"	d	file:
+RTMSEC	suite.h	55;"	d
+Result	suite.h	/^} Result;$/;"	t	typeref:struct:__anon1
+SEMKEY	pipe_test.c	52;"	d	file:
+SHIFT	disk1.c	95;"	d	file:
+SHMFILE	pipe_test.c	58;"	d	file:
+SHMKEY	pipe_test.c	51;"	d	file:
+SIZBUF	num_fcns.c	52;"	d	file:
+SLEEP	multitask.c	55;"	d	file:
+SRCS	Makefile	/^SRCS =  add.c disk1.c div.c funcal.c mul.c \\$/;"	m
+SS_7	multitask.c	31;"	d	file:
+STAT	disk_src.c	/^enum choices { STAT = 0, CREAT, MCHOICE };	\/* encode choices here *\/$/;"	e	enum:choices	file:
+STRLEN	suite.h	60;"	d
+STROKES	suite.h	52;"	d
+TASKS	Makefile	/^TASKS = add.o disk1.o div.o funcal.o mul.o \\$/;"	m
+THE_LINK_MAX	creat-clo.c	62;"	d	file:
+THRESHOLD_MAX	multitask.c	80;"	d	file:
+THRESHOLD_MIN	multitask.c	79;"	d	file:
+TMPFILE1	suite.h	129;"	d
+TMPFILE2	suite.h	130;"	d
+TOTAL_PRIMES	int_fcns.c	35;"	d	file:
+TPDEBUG	testerr.h	49;"	d
+TPFIELD	testerr.h	45;"	d
+TRUE	suite.h	33;"	d
+TTDEBUG	testerr.h	48;"	d
+TTFIELD	testerr.h	44;"	d
+VERTICAL_SPACE_BETWEEN_GRAPHS	rpt.c	34;"	d	file:
+VMDEBUG	testerr.h	50;"	d
+VMFIELD	testerr.h	46;"	d
+Vector	rpt.c	/^} Vector;$/;"	t	typeref:struct:_vector	file:
+WAITING_FOR_DISK_COUNT	suite.h	105;"	d
+WORKFILE	suite.h	50;"	d
+WORKLD	suite.h	49;"	d
+_INCLUDE_HPUX_SOURCE	pipe_test.c	25;"	d	file:
+_INCLUDE_XOPEN_SOURCE	disk1.c	27;"	d	file:
+_M_XOUT	disk1.c	28;"	d	file:
+_POSIX_SOURCE	add.c	25;"	d	file:
+_POSIX_SOURCE	creat-clo.c	25;"	d	file:
+_POSIX_SOURCE	disk1.c	25;"	d	file:
+_POSIX_SOURCE	disk_src.c	25;"	d	file:
+_POSIX_SOURCE	div.c	25;"	d	file:
+_POSIX_SOURCE	fillin.c	25;"	d	file:
+_POSIX_SOURCE	funcal.c	25;"	d	file:
+_POSIX_SOURCE	int_fcns.c	25;"	d	file:
+_POSIX_SOURCE	mul.c	25;"	d	file:
+_POSIX_SOURCE	multitask.c	25;"	d	file:
+_POSIX_SOURCE	num_fcns.c	25;"	d	file:
+_POSIX_SOURCE	ram.c	25;"	d	file:
+_POSIX_SOURCE	rand.c	25;"	d	file:
+_POSIX_SOURCE	rtmsec.c	25;"	d	file:
+_XOPEN_SOURCE	disk1.c	26;"	d	file:
+_data_point	rpt.c	/^typedef struct _data_point {$/;"	s	file:
+_datapoints	multitask.c	/^struct _datapoints {$/;"	s	file:
+_tasks	multitask.c	/^struct _tasks {				\/* command \/ weight array *\/$/;"	s	file:
+_vector	rpt.c	/^typedef struct _vector {$/;"	s	file:
+a	ram.c	/^  a[8192 + sizeof (double)],		\/* source *\/$/;"	v	file:
+a_cnt	multitask.c	/^  a_cnt,				\/* count data points for adaptive timer *\/$/;"	v	file:
+a_tn	multitask.c	/^  a_tn1, a_tn, tasks_per_minute,	\/* JPM = Jobs Per Minute *\/$/;"	v
+a_tn1	multitask.c	/^  a_tn1, a_tn, tasks_per_minute,	\/* JPM = Jobs Per Minute *\/$/;"	v
+add_c	add.c	/^add_c()$/;"	f
+add_double	add.c	/^add_double(char *argv,$/;"	f	file:
+add_float	add.c	/^add_float(char *argv,$/;"	f	file:
+add_int	add.c	/^add_int(char *argv,$/;"	f	file:
+add_long	add.c	/^add_long(char *argv,$/;"	f	file:
+add_short	add.c	/^add_short(char *argv,$/;"	f	file:
+adjust_adaptive_timer_increment	multitask.c	/^adjust_adaptive_timer_increment(int inc,$/;"	f	file:
+aim_fork	multitask.c	/^aim_fork()$/;"	f	file:
+aim_mktemp	disk1.c	/^aim_mktemp(char *template)$/;"	f
+aim_rand	rand.c	/^aim_rand()$/;"	f
+aim_rand2	rand.c	/^aim_rand2()$/;"	f
+aim_srand	rand.c	/^aim_srand(unsigned int input)$/;"	f
+aim_srand2	rand.c	/^aim_srand2(unsigned int input)$/;"	f
+aim_system	num_fcns.c	/^aim_system(char *cmdline)$/;"	f	file:
+alternate_gets	multitask.c	/^alternate_gets(char *buf,$/;"	f
+appendixes	doc/main.html	/^<A name="appendixes"><\/A>$/;"	a
+args	suite.h	/^	char *args;$/;"	m	struct:CARGS
+array	pipe_test.c	/^	ushort *array;$/;"	m	union:semun	file:
+array_rtns	num_fcns.c	/^array_rtns(char *argv,$/;"	f	file:
+b	ram.c	/^  b[8192 + sizeof (double)];		\/* destination *\/$/;"	v	file:
+begin_timing	multitask.c	/^begin_timing()$/;"	f
+benchmark_c	multitask.c	/^benchmark_c()$/;"	f
+benchmark_name	multitask.c	/^char *benchmark_name = "AIM Multiuser Benchmark - Suite VII";	\/* and name *\/$/;"	v
+bold_font	rpt.c	40;"	d	file:
+brk_test	creat-clo.c	/^brk_test(char *argv,$/;"	f	file:
+buf	pipe_test.c	/^	struct semid_ds *buf;$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+bufptr	pipe_test.c	/^ *bufptr = NULL;			\/* pointer to message buffer in shared memory *\/$/;"	v	file:
+c	suite.h	/^	char c;$/;"	m	struct:__anon1
+center_line	rpt.c	/^center_line(FILE * f,$/;"	f
+chapter1	doc/main.html	/^<A name="chapter1"><\/A>$/;"	a
+chapter2	doc/main.html	/^<A name="chapter2"><\/A>$/;"	a
+chapter3	doc/main.html	/^<A name="chapter3"><\/A>$/;"	a
+chapter4	doc/main.html	/^<A name="chapter4"><\/A>$/;"	a
+choices	disk_src.c	/^enum choices { STAT = 0, CREAT, MCHOICE };	\/* encode choices here *\/$/;"	g	file:
+cl_list	disk_src.c	/^cl_list(char *list[MCHOICE][MFILES])$/;"	f
+cleanup	multitask.c	/^cleanup(int sig)$/;"	f
+clear_ipc	pipe_test.c	/^clear_ipc()$/;"	f
+cmd	multitask.c	/^	char cmd[50];			\/* name *\/$/;"	m	struct:_tasks	file:
+cmdargs	multitask.c	/^Cargs cmdargs[MAXCMDARGS];		\/* filled by register_test() *\/$/;"	v
+cnt	multitask.c	/^	int cnt;			\/* total # points *\/$/;"	m	struct:_datapoints	file:
+compar1	num_fcns.c	/^compar1(const void *p1,$/;"	f	file:
+compar2	num_fcns.c	/^compar2(const void *p1,$/;"	f	file:
+compiler_fake_out1	num_fcns.c	/^double compiler_fake_out1;		\/* dummy variable for num_rtns_1()  *\/$/;"	v
+compiler_fake_out2	num_fcns.c	/^double compiler_fake_out2;		\/* and trig_fcns()...since globally *\/$/;"	v
+compiler_fake_out3	num_fcns.c	/^double compiler_fake_out3;		\/* available, compiler can't assume *\/$/;"	v
+compiler_fake_out4	num_fcns.c	/^double compiler_fake_out4;		\/* anything and thus can't opt.     *\/$/;"	v
+compiler_fake_out5	num_fcns.c	/^double compiler_fake_out5;		\/* their assignments out            *\/$/;"	v
+count	num_fcns.c	/^static int count = 0;			\/* counter for vals[] array *\/$/;"	v	file:
+count	pipe_test.c	/^static int count = 0;$/;"	v	file:
+count10	num_fcns.c	/^static int count10 = 0;			\/* counter for vals10[] array *\/$/;"	v	file:
+cpu	rpt.c	/^	double cpu;$/;"	m	struct:_data_point	file:
+creat_clo	creat-clo.c	/^creat_clo(char *argv,$/;"	f	file:
+creat_clo_c	creat-clo.c	/^creat_clo_c()$/;"	f
+create_shared_memory	pipe_test.c	/^create_shared_memory(int *sem,$/;"	f	file:
+create_shm	pipe_test.c	/^create_shm(char *shmfile)$/;"	f	file:
+current_test	multitask.c	/^  current_test[256],			\/* keep track of current test for signal_handlers *\/$/;"	v
+d	suite.h	/^	double d;$/;"	m	struct:__anon1
+data	rpt.c	/^Data_point *data;$/;"	v
+data_points	rpt.c	/^  data_points, line_count;$/;"	v
+datapoints	multitask.c	/^} datapoints[MAXITR];			\/* holds datapt_files[] contents *\/$/;"	v	typeref:struct:_datapoints
+datapt_files	multitask.c	/^  datapt_files[MAXITR][256],		\/* files holding datapoints *\/$/;"	v
+date	suite.h	/^	char *date;			\/* date of compilation *\/$/;"	m	struct:__anon2
+death_of_child	multitask.c	/^death_of_child(int sig)$/;"	f
+debug	multitask.c	/^  debug,$/;"	v
+debug	suite.h	/^EXTERN long debug;$/;"	v
+dgram_pipe	pipe_test.c	/^dgram_pipe(char *argv,$/;"	f	file:
+dir_rtns_1	num_fcns.c	/^dir_rtns_1(char *argv,$/;"	f	file:
+disk1_c	disk1.c	/^disk1_c()$/;"	f
+disk_cp	disk1.c	/^disk_cp(char *argv,$/;"	f	file:
+disk_create_all_files	multitask.c	/^disk_create_all_files()$/;"	f	file:
+disk_iteration_count	multitask.c	/^ *p_i1, disk_iteration_count;		\/* specified by user, test file size in kbytes *\/$/;"	v
+disk_rd	disk1.c	/^disk_rd(char *argv,$/;"	f	file:
+disk_rr	disk1.c	/^disk_rr(char *argv,$/;"	f	file:
+disk_rw	disk1.c	/^disk_rw(char *argv,$/;"	f	file:
+disk_src	disk_src.c	/^disk_src(char *argv,$/;"	f	file:
+disk_src_c	disk_src.c	/^	source_file * disk_src_c()$/;"	f
+disk_unlink_all_test_files	multitask.c	/^disk_unlink_all_test_files(int which_files)$/;"	f
+disk_wrt	disk1.c	/^disk_wrt(char *argv,$/;"	f	file:
+div_c	div.c	/^div_c()$/;"	f
+div_double	div.c	/^div_double(char *argv,$/;"	f	file:
+div_float	div.c	/^div_float(char *argv,$/;"	f	file:
+div_int	div.c	/^div_int(char *argv,$/;"	f	file:
+div_long	div.c	/^div_long(char *argv,$/;"	f	file:
+div_short	div.c	/^div_short(char *argv,$/;"	f	file:
+dkarr	multitask.c	/^  dkarr[MAXDRIVES][STRLEN],		\/* dirs for disk thrasher from config file *\/$/;"	v
+draw_line	rpt.c	/^draw_line(FILE * f,$/;"	f
+dsearch	disk_src.c	/^dsearch(char *fakeh_dir)$/;"	f
+dummy_function	creat-clo.c	/^dummy_function(jmp_buf buf,$/;"	f	file:
+dump_results	multitask.c	/^dump_results()$/;"	f
+dump_socket	pipe_test.c	55;"	d	file:
+end_times	multitask.c	/^struct tms start_times, end_times;	\/* for logfile times calls *\/$/;"	v	typeref:struct:
+end_timing	multitask.c	/^end_timing(char *test,$/;"	f
+errdump	disk_src.c	/^errdump(int line,$/;"	f
+error	creat-clo.c	/^static int error;			\/* no errors now *\/$/;"	v	file:
+exec_test	creat-clo.c	/^exec_test(char *argv,$/;"	f	file:
+f	num_fcns.c	/^f(double arg)$/;"	f	file:
+f	suite.h	/^	float f;$/;"	m	struct:__anon1
+f	suite.h	/^	int (*f) ();$/;"	m	struct:CARGS
+f_prime	num_fcns.c	/^f_prime(double arg)$/;"	f	file:
+factor	suite.h	/^	int factor;			\/* 5\/27\/93 -- REC used for Suite IX's operation count *\/$/;"	m	struct:CARGS
+fcal0	funcal.c	/^fcal0()$/;"	f
+fcal1	funcal.c	/^fcal1(register int n)$/;"	f
+fcal15	funcal.c	/^fcal15(register int i1,$/;"	f
+fcal2	funcal.c	/^fcal2(register int n,$/;"	f
+fcalfake	funcal.c	/^fcalfake()$/;"	f
+file_buffer	multitask.c	/^  file_buffer[NBUFSIZE],		\/* buffer for file creation *\/$/;"	v
+filename	suite.h	/^	char *filename;			\/* filename *\/$/;"	m	struct:__anon2
+files_h	files.h	25;"	d
+filesize	multitask.c	/^  filesize,				\/* test file size *\/$/;"	v	file:
+fillin_c	fillin.c	/^fillin_c()$/;"	f
+find_arguments	multitask.c	/^find_arguments(char *s)$/;"	f
+fixed	set-cpus	/^fixed = [n for n in possible$/;"	v
+flag	pipe_test.c	/^  flag = 0;				\/* completion flag *\/$/;"	v
+fn1	disk1.c	/^static char fn1[STRLEN];$/;"	v	file:
+fn1	multitask.c	/^  fn1[STRLEN],				\/* STRLEN = 80 *\/$/;"	v
+fn1arr	multitask.c	/^  fn1arr[MAXDRIVES][STRLEN],		\/* list of tmpa.common files created *\/$/;"	v
+fn2	disk1.c	/^static char fn2[STRLEN];$/;"	v	file:
+fn2arr	multitask.c	/^  fn2arr[MAXDRIVES][STRLEN],		\/* list of fakeh directories created *\/$/;"	v
+foo	fillin.c	/^foo(int a,$/;"	f
+foo_real	fillin.c	/^foo_real(double a,$/;"	f
+fork_test	creat-clo.c	/^fork_test(char *argv,$/;"	f	file:
+funcal_c	funcal.c	/^funcal_c()$/;"	f
+funcal_h	funcal.h	26;"	d
+get_line	rpt.c	/^get_line(FILE * f,$/;"	f
+get_list	disk_src.c	/^get_list(FILE * file,$/;"	f
+get_misc_information	multitask.c	/^get_misc_information()$/;"	f
+graph_names	rpt.c	/^char *graph_names[] = {$/;"	v
+gun	multitask.c	/^  gun,					\/* start all processes running *\/$/;"	v	file:
+header	rpt.c	/^ *header[5];				\/* top few lines of the program *\/$/;"	v
+hertz	multitask.c	/^  hertz,				\/* HZ *\/$/;"	v
+hits	multitask.c	/^	int hits;			\/* iterations *\/$/;"	m	struct:_tasks	file:
+hp	pipe_test.c	/^ *hp;$/;"	v	typeref:struct:hostent
+i	suite.h	/^	int i;$/;"	m	struct:__anon1
+incr	multitask.c	/^  incr[MAXITR],				\/* skip incr number each run *\/$/;"	v	file:
+index1	doc/main.html	/^<A name="index1"><\/A>$/;"	a
+index2	doc/main.html	/^<A name="index2"><\/A>$/;"	a
+index3	doc/main.html	/^<A name="index3"><\/A>$/;"	a
+index4	doc/main.html	/^<A name="index4"><\/A>$/;"	a
+index5	doc/main.html	/^<A name="index5"><\/A>$/;"	a
+initialize_global_variables	multitask.c	/^initialize_global_variables()$/;"	f
+int_fcns_c	int_fcns.c	/^int_fcns_c()$/;"	f
+interactive	set-cpus	/^def interactive():$/;"	f
+iters	multitask.c	/^  iters, no_logfile,			\/* don't print out logfile *\/$/;"	v	file:
+jmp_test	creat-clo.c	/^jmp_test(char *argv,$/;"	f	file:
+jobs_sec_user	rpt.c	/^	double jobs_sec_user;$/;"	m	struct:_data_point	file:
+jti	rpt.c	/^	double jti;$/;"	m	struct:_data_point	file:
+kids	multitask.c	/^  kids,					\/* number of users forked *\/$/;"	v	file:
+kids_forked	multitask.c	/^  kids_forked,				\/* keeps track of forking children *\/$/;"	v	file:
+kill_all_child_processes	multitask.c	/^kill_all_child_processes(int sig)$/;"	f
+l	suite.h	/^	long l;$/;"	m	struct:__anon1
+ldate	multitask.c	/^ *ldate,				\/* date from ctime *\/$/;"	v
+line_count	rpt.c	/^  data_points, line_count;$/;"	v
+link_test	creat-clo.c	/^link_test(char *argv,$/;"	f	file:
+logfile	multitask.c	/^FILE *logfile = NULL;			\/* holds timing information *\/$/;"	v
+m	num_fcns.c	632;"	d	file:
+main	multitask.c	/^main(int argc,$/;"	f
+main	rpt.c	/^main(int argc,$/;"	f
+math_signal_handler	multitask.c	/^math_signal_handler(int sig)$/;"	f
+matrix_rtns	num_fcns.c	/^matrix_rtns(char *argv,$/;"	f	file:
+maxusers	multitask.c	/^  maxusers[MAXITR],			\/* max users at once *\/$/;"	v	file:
+mconfig	multitask.c	/^  mconfig[256],				\/* machine configuration *\/$/;"	v
+mem_rtns_1	num_fcns.c	/^mem_rtns_1(char *argv,$/;"	f	file:
+mem_rtns_2	num_fcns.c	/^mem_rtns_2(char *argv,$/;"	f	file:
+minusers	multitask.c	/^  minusers[MAXITR],			\/* min number of users *\/$/;"	v	file:
+misc_rtns_1	num_fcns.c	/^misc_rtns_1(char *argv,$/;"	f	file:
+mname	multitask.c	/^  mname[256],				\/* machine name *\/$/;"	v
+mrand	disk_src.c	/^mrand()$/;"	f
+mul_c	mul.c	/^mul_c()$/;"	f
+mul_double	mul.c	/^mul_double(char *argv,$/;"	f	file:
+mul_float	mul.c	/^mul_float(char *argv,$/;"	f	file:
+mul_int	mul.c	/^mul_int(char *argv,$/;"	f	file:
+mul_long	mul.c	/^mul_long(char *argv,$/;"	f	file:
+mul_short	mul.c	/^mul_short(char *argv,$/;"	f	file:
+myname	pipe_test.c	/^  myname[1024];				\/* hostname placed here *\/$/;"	v
+name	suite.h	/^	char *name;$/;"	m	struct:CARGS
+nbuf	disk1.c	/^static char nbuf[NBUFSIZE];		\/* 1K blocks *\/$/;"	v	file:
+newton_raphson	num_fcns.c	/^newton_raphson(char *argv,$/;"	f	file:
+next	rpt.c	/^	struct _data_point *next;$/;"	m	struct:_data_point	typeref:struct:_data_point::_data_point	file:
+next_value	num_fcns.c	/^next_value()$/;"	f
+no_logfile	multitask.c	/^  iters, no_logfile,			\/* don't print out logfile *\/$/;"	v	file:
+normal_font	rpt.c	41;"	d	file:
+normal_format	rpt.c	39;"	d	file:
+now	multitask.c	/^  now,$/;"	v
+num_cmdargs	multitask.c	/^int num_cmdargs = 0;$/;"	v
+num_fcns_c	num_fcns.c	/^num_fcns_c()$/;"	f
+num_rtns_1	num_fcns.c	/^num_rtns_1(char *argv,$/;"	f	file:
+numdir	multitask.c	/^  numdir,				\/* number of disk directories *\/$/;"	v	file:
+output_suite_header	multitask.c	/^output_suite_header(char *name,$/;"	f
+output_suite_out	multitask.c	/^output_suite_out(int suite_users,$/;"	f
+p_fcount	multitask.c	/^ *p_fcount,$/;"	v
+p_fcount	suite.h	/^EXTERN long *p_fcount;$/;"	v
+p_i1	multitask.c	/^ *p_i1, disk_iteration_count;		\/* specified by user, test file size in kbytes *\/$/;"	v
+p_i1	suite.h	/^EXTERN int *p_i1;$/;"	v
+page10	doc/main.html	/^<A name="page10"><\/A>$/;"	a
+page12	doc/main.html	/^<A name="page12"><\/A>$/;"	a
+page13	doc/main.html	/^<A name="page13"><\/A>$/;"	a
+page14	doc/main.html	/^<A name="page14"><\/A>$/;"	a
+page15	doc/main.html	/^<A name="page15"><\/A>$/;"	a
+page16	doc/main.html	/^<A name="page16"><\/A>$/;"	a
+page17	doc/main.html	/^<A name="page17"><\/A>$/;"	a
+page18	doc/main.html	/^<A name="page18"><\/A>$/;"	a
+page19	doc/main.html	/^<A name="page19"><\/A>$/;"	a
+page20	doc/main.html	/^<A name="page20"><\/A>$/;"	a
+page21	doc/main.html	/^<A name="page21"><\/A>$/;"	a
+page22	doc/main.html	/^<A name="page22"><\/A>$/;"	a
+page23	doc/main.html	/^<A name="page23"><\/A>$/;"	a
+page24	doc/main.html	/^<A name="page24"><\/A>$/;"	a
+page25	doc/main.html	/^<A name="page25"><\/A>$/;"	a
+page26	doc/main.html	/^<A name="page26"><\/A>$/;"	a
+page27	doc/main.html	/^<A name="page27"><\/A>$/;"	a
+page28	doc/main.html	/^<A name="page28"><\/A>$/;"	a
+page29	doc/main.html	/^<A name="page29"><\/A>$/;"	a
+page3	doc/main.html	/^<A name="page3"><\/A>$/;"	a
+page30	doc/main.html	/^<A name="page30"><\/A>$/;"	a
+page31	doc/main.html	/^<A name="page31"><\/A>$/;"	a
+page32	doc/main.html	/^<A name="page32"><\/A>$/;"	a
+page33	doc/main.html	/^<A name="page33"><\/A>$/;"	a
+page34	doc/main.html	/^<A name="page34"><\/A>$/;"	a
+page35	doc/main.html	/^<A name="page35"><\/A>$/;"	a
+page36	doc/main.html	/^<A name="page36"><\/A>$/;"	a
+page37	doc/main.html	/^<A name="page37"><\/A>$/;"	a
+page38	doc/main.html	/^<A name="page38"><\/A>$/;"	a
+page39	doc/main.html	/^<A name="page39"><\/A>$/;"	a
+page4	doc/main.html	/^<A name="page4"><\/A>$/;"	a
+page40	doc/main.html	/^<A name="page40"><\/A>$/;"	a
+page41	doc/main.html	/^<A name="page41"><\/A>$/;"	a
+page42	doc/main.html	/^<A name="page42"><\/A>$/;"	a
+page43	doc/main.html	/^<A name="page43"><\/A>$/;"	a
+page44	doc/main.html	/^<A name="page44"><\/A>$/;"	a
+page45	doc/main.html	/^<A name="page45"><\/A>$/;"	a
+page46	doc/main.html	/^<A name="page46"><\/A>$/;"	a
+page47	doc/main.html	/^<A name="page47"><\/A>$/;"	a
+page48	doc/main.html	/^<A name="page48"><\/A>$/;"	a
+page49	doc/main.html	/^<A name="page49"><\/A>$/;"	a
+page5	doc/main.html	/^<A name="page5"><\/A>$/;"	a
+page50	doc/main.html	/^<A name="page50"><\/A>$/;"	a
+page51	doc/main.html	/^<A name="page51"><\/A>$/;"	a
+page6	doc/main.html	/^<A name="page6"><\/A>$/;"	a
+page7	doc/main.html	/^<A name="page7"><\/A>$/;"	a
+page8	doc/main.html	/^<A name="page8"><\/A>$/;"	a
+page9	doc/main.html	/^<A name="page9"><\/A>$/;"	a
+page_test	creat-clo.c	/^page_test(char *argv,$/;"	f	file:
+parent_pid	multitask.c	/^pid_t parent_pid;			\/* parent's PID *\/$/;"	v
+parseRange	set-cpus	/^def parseRange(r):$/;"	f
+period	multitask.c	/^  period;				\/* calibration timer *\/$/;"	v
+pipe_cpy	pipe_test.c	/^pipe_cpy(char *argv,$/;"	f	file:
+pipe_test_c	pipe_test.c	/^pipe_test_c()$/;"	f
+plot	pipe_test.c	/^COUNT_START FILE * plot;		\/* plot output goes here *\/$/;"	v
+points	multitask.c	/^	int points[MAXDPTS];$/;"	m	struct:_datapoints	file:
+poolsize	multitask.c	/^  poolsize,				\/* size of a disk pool for common use *\/$/;"	v	file:
+possible	set-cpus	/^possible = parseRange(file("\/sys\/devices\/system\/cpu\/present").read())$/;"	v
+printRange	set-cpus	/^def printRange(vals):$/;"	f
+print_array	num_fcns.c	/^print_array(double *a,			\/* the array to print *\/$/;"	f	file:
+print_at	rpt.c	/^print_at(FILE * f,$/;"	f
+print_centered	rpt.c	/^print_centered(FILE * f,$/;"	f
+print_right	rpt.c	/^print_right(FILE * f,$/;"	f
+progname	rpt.c	/^ *progname,				\/* name of program *\/$/;"	v
+prompt_filesize	multitask.c	/^prompt_filesize(int *i,$/;"	f	file:
+prompt_read	multitask.c	/^prompt_read(int *i,$/;"	f	file:
+ps_init	rpt.c	/^char *ps_init[] = {$/;"	v
+ram_c	ram.c	/^ram_c()$/;"	f
+ram_copy	ram.c	/^ram_copy(char *argv,$/;"	f	file:
+rand_c	rand.c	/^rand_c()$/;"	f
+rate	rtmsec.c	/^static double rate;$/;"	v	file:
+rd_in	pipe_test.c	/^  rd_in,				\/* read socket *\/$/;"	v	typeref:struct:sockaddr_in
+read_datapoints	multitask.c	/^read_datapoints(int current_iter)$/;"	f
+read_write_close	pipe_test.c	/^read_write_close(int loops,$/;"	f	file:
+readn	pipe_test.c	/^readn(int fd,$/;"	f	file:
+real	rpt.c	/^	double real;$/;"	m	struct:_data_point	file:
+reduce_list	multitask.c	/^reduce_list(int wlist[])$/;"	f
+register_test	multitask.c	/^register_test(char *name,$/;"	f
+release_date	multitask.c	/^char *release_date = "January 22, 1996";	\/* and release *\/$/;"	v
+results	multitask.c	/^Result results[LOADNUM + MAXCMDARGS];	\/* holds return values from test functions *\/$/;"	v
+rt1	multitask.c	/^  rt1,$/;"	v
+rt2	multitask.c	/^  rt2,					\/* time variables *\/$/;"	v
+rtmsec	rtmsec.c	/^rtmsec(int reset)$/;"	f
+rtmsec_c	rtmsec.c	/^rtmsec_c()$/;"	f
+run	suite.h	/^	int run;$/;"	m	struct:CARGS
+runtap	multitask.c	/^runtap(int current_user_load_number,$/;"	f
+s	suite.h	/^	short s;$/;"	m	struct:__anon1
+sccs	suite.h	/^	char *sccs;			\/* contains SCCS info *\/$/;"	m	struct:__anon2
+sccs_id	rpt.c	/^static char sccs_id[] = { " @(#) rpt.c:1.7 1\/22\/96 16:16:56" };$/;"	v	file:
+scramble	disk_src.c	/^scramble(char *list[],$/;"	f
+sdate	multitask.c	/^  sdate[25];				\/* date again copied from ctime *\/$/;"	v
+seed	rand.c	/^static unsigned long seed = 1l;$/;"	v	file:
+seed2	rand.c	/^static unsigned long seed2 = 1l;$/;"	v	file:
+sem	pipe_test.c	/^static int sem = -1,			\/* semaphore id *\/$/;"	v	file:
+semarg	pipe_test.c	/^} semarg;				\/* argument to semctl *\/$/;"	v	typeref:union:semun
+semun	pipe_test.c	/^union semun {				\/* semaphore union *\/$/;"	u	file:
+series_1	num_fcns.c	/^series_1(char *argv,$/;"	f	file:
+setCPU	set-cpus	/^def setCPU(cpu, online):$/;"	f
+setCPUs	set-cpus	/^def setCPUs(cpus):$/;"	f
+set_xscale	rpt.c	/^set_xscale(double *val)$/;"	f
+set_yscale	rpt.c	/^set_yscale(double *val)$/;"	f
+shared_memory	pipe_test.c	/^shared_memory(char *argv,$/;"	f	file:
+shell_rtns_1	num_fcns.c	/^shell_rtns_1(char *argv,$/;"	f	file:
+shell_rtns_2	num_fcns.c	/^shell_rtns_2(char *argv,$/;"	f	file:
+shell_rtns_3	num_fcns.c	/^shell_rtns_3(char *argv,$/;"	f	file:
+shmid	pipe_test.c	/^  shmid = -1;				\/* shared memory id *\/$/;"	v	file:
+sieve	int_fcns.c	/^sieve(char *argv,$/;"	f	file:
+sigcount	creat-clo.c	/^volatile static int sigcount;			\/* count of signals *\/$/;"	v	file:
+sighandler	creat-clo.c	/^sighandler(int sig)$/;"	f	file:
+signal_test	creat-clo.c	/^signal_test(char *argv,$/;"	f	file:
+sizes	pipe_test.c	/^static int sizes[] = {$/;"	v	file:
+sizes	ram.c	/^  sizes[] = {				\/* determines how much to copy *\/$/;"	v	file:
+solve_array	num_fcns.c	/^solve_array(double *a,			\/* input array of wide x high *\/$/;"	f	file:
+sort_rtns_1	num_fcns.c	/^sort_rtns_1(char *argv,$/;"	f	file:
+source_file	suite.h	/^} source_file;				\/* make it a typedef *\/$/;"	t	typeref:struct:__anon2
+source_files	files.h	/^static source_file *(*source_files[]) () = {$/;"	v
+ss_file	multitask.c	/^  ss_file[NBUFSIZE],			\/* output filename *\/$/;"	v
+start_child_processes	multitask.c	/^start_child_processes()$/;"	f
+start_times	multitask.c	/^struct tms start_times, end_times;	\/* for logfile times calls *\/$/;"	v	typeref:struct:tms
+stream_pipe	pipe_test.c	/^stream_pipe(char *argv,$/;"	f	file:
+string_rtns_1	num_fcns.c	/^string_rtns_1(char *argv,$/;"	f	file:
+suite_h	suite.h	25;"	d
+sync_disk_cp	disk1.c	/^sync_disk_cp(char *argv,$/;"	f	file:
+sync_disk_rw	disk1.c	/^sync_disk_rw(char *argv,$/;"	f	file:
+sync_disk_update	disk1.c	/^sync_disk_update(char *argv,$/;"	f	file:
+sync_disk_wrt	disk1.c	/^sync_disk_wrt(char *argv,$/;"	f	file:
+t	multitask.c	/^struct tms t[2];			\/* for times calls *\/$/;"	v	typeref:struct:tms
+t1	multitask.c	/^  t1,$/;"	v
+t2	multitask.c	/^  t2,$/;"	v
+table	num_fcns.c	/^int table[MAXSORTSIZE];			\/* table to sort of integers *\/$/;"	v
+task	rpt.c	/^	double task;$/;"	m	struct:_data_point	file:
+task_rate	rpt.c	/^	double task_rate;$/;"	m	struct:_data_point	file:
+tasks	multitask.c	/^} tasks[WORKLD];			\/* holds 'workfile' contents *\/$/;"	v	typeref:struct:_tasks
+tasks_per_minute	multitask.c	/^  a_tn1, a_tn, tasks_per_minute,	\/* JPM = Jobs Per Minute *\/$/;"	v
+tasks_per_minute_per_user	multitask.c	/^  tasks_per_minute_per_user;		\/* JPM = Jobs Per Minute per user *\/$/;"	v
+tcp_test	pipe_test.c	/^tcp_test(char *argv,$/;"	f	file:
+termination	multitask.c	/^  termination[MAXITR],			\/* CROSSOVER or NOCROSSOVER *\/$/;"	v	file:
+test	num_fcns.c	/^test(double *a,				\/* input array *\/$/;"	f	file:
+testerr_h	testerr.h	26;"	d
+time	suite.h	/^	char *time;			\/* time of compilation *\/$/;"	m	struct:__anon2
+trig_rtns	num_fcns.c	/^trig_rtns(char *argv,$/;"	f	file:
+udp_test	pipe_test.c	/^udp_test(char *argv,$/;"	f	file:
+units	suite.h	/^	char *units;			\/* 5\/28\/93 -- REC used for Suite IX's operation count *\/$/;"	m	struct:CARGS
+usage	set-cpus	/^def usage():$/;"	f
+use_Newton	multitask.c	/^  use_Newton,$/;"	v
+use_file	multitask.c	/^  use_file,$/;"	v
+val	pipe_test.c	/^	int val;$/;"	m	union:semun	file:
+vals	num_fcns.c	/^static double vals[NUMVALS];		\/* holds floating point values (1..0) *\/$/;"	v	file:
+vals10	num_fcns.c	/^static double vals10[NUM10VALS];	\/* holds floating point values (-10..10) *\/$/;"	v	file:
+version	multitask.c	/^char *version = "1.1";			\/* establish version *\/$/;"	v
+vtime	multitask.c	/^time_t vtime;$/;"	v
+work	multitask.c	/^  work,					\/* work load for processes *\/$/;"	v	file:
+wr_in	pipe_test.c	/^  wr_in;				\/* write socket *\/$/;"	v	typeref:struct:
+writen	pipe_test.c	/^writen(int fd,$/;"	f	file:
+x	rpt.c	/^	double x, y;$/;"	m	struct:_vector	file:
+xy	pipe_test.c	/^  xy[100][2];				\/* holds xy pairs *\/$/;"	v
+y	rpt.c	/^	double x, y;$/;"	m	struct:_vector	file:

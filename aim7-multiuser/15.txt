@@ -1,0 +1,18 @@
+# started on Mon Feb 22 06:35:16 2021
+
+
+ Performance counter stats for 'numactl -C 0-14 ./multitask workfile.fserver':
+
+     365476.299161      task-clock (msec)         #    6.672 CPUs utilized          
+         8,233,943      context-switches          #    0.023 M/sec                  
+         1,880,927      cpu-migrations            #    0.005 M/sec                  
+            31,925      page-faults               #    0.087 K/sec                  
+   801,738,835,950      cycles                    #    2.194 GHz                    
+   557,212,992,262      stalled-cycles-frontend   #   69.50% frontend cycles idle   
+   557,473,020,086      instructions              #    0.70  insn per cycle         
+                                                  #    1.00  stalled cycles per insn
+   110,170,750,660      branches                  #  301.444 M/sec                  
+     1,316,779,489      branch-misses             #    1.20% of all branches        
+
+      54.780957367 seconds time elapsed
+

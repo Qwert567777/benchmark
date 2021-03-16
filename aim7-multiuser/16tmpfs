@@ -1,0 +1,37 @@
+
+
+
+rm -rf /media/aim7/*
+mkdir /media/aim7_01
+mkdir /media/aim7_02
+mkdir /media/aim7_03
+mkdir /media/aim7_04
+mkdir /media/aim7_05
+mkdir /media/aim7_06
+mkdir /media/aim7_07
+mkdir /media/aim7_08
+mkdir /media/aim7_09
+mkdir /media/aim7_10
+mkdir /media/aim7_11
+mkdir /media/aim7_12
+mkdir /media/aim7_13
+mkdir /media/aim7_14
+mkdir /media/aim7_15
+mkdir /media/aim7_16
+mount -t tmpfs -o size=5g tmpfs /media/aim7_01
+mount -t tmpfs -o size=5g tmpfs /media/aim7_02
+mount -t tmpfs -o size=5g tmpfs /media/aim7_03
+mount -t tmpfs -o size=5g tmpfs /media/aim7_04
+mount -t tmpfs -o size=5g tmpfs /media/aim7_05
+mount -t tmpfs -o size=5g tmpfs /media/aim7_06
+mount -t tmpfs -o size=5g tmpfs /media/aim7_07
+mount -t tmpfs -o size=5g tmpfs /media/aim7_08
+mount -t tmpfs -o size=5g tmpfs /media/aim7_09
+mount -t tmpfs -o size=5g tmpfs /media/aim7_10
+mount -t tmpfs -o size=5g tmpfs /media/aim7_11
+mount -t tmpfs -o size=5g tmpfs /media/aim7_12
+mount -t tmpfs -o size=5g tmpfs /media/aim7_13
+mount -t tmpfs -o size=5g tmpfs /media/aim7_14
+mount -t tmpfs -o size=5g tmpfs /media/aim7_15
+mount -t tmpfs -o size=5g tmpfs /media/aim7_16
+

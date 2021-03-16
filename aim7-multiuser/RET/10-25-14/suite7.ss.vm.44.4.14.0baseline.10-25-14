@@ -1,0 +1,9 @@
+Sun Oct 25 15:18:28 PDT 2020
+Benchmark	Version	Machine	Run Date
+AIM Multiuser Benchmark - Suite VII	"1.1"	tokay	Oct 25 15:18:28 2020
+
+Tasks	Jobs/Min	JTI	Real	CPU	Jobs/sec/task
+1	110.3		100	54.9	3.6	1.8387
+11	833.5		99	80.0	54.1	1.2628
+21	1654.4		99	76.9	153.7	1.3131
+31	2454.1		98	76.5	273.0	1.3194

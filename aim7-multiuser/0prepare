@@ -1,0 +1,4 @@
+echo 0 > /proc/sys/kernel/hung_task_timeout_secs
+sysctl -w kernel.numa_balancing=0
+sysctl -w kernel.sem="1000 32000 128 512"
+ulimit -n 100000

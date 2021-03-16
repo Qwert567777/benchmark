@@ -1,0 +1,3053 @@
+CPU: Intel Ivy Bridge microarchitecture, speed 2900 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (No unit mask) count 100000
+CPU_CLK_UNHALT...|
+  samples|      %|
+------------------
+  4508101 59.8356 multitask
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	  2123638 47.1072 multitask
+	  2116523 46.9493 kallsyms
+	   143689  3.1874 libm-2.21.so
+	   102840  2.2812 libc-2.21.so
+	    13473  0.2989 ld-2.21.so
+	     6485  0.1439 ls
+	      581  0.0129 libnss_files-2.21.so
+	      214  0.0047 libnss_compat-2.21.so
+	      202  0.0045 libnss_nis-2.21.so
+	      160  0.0035 libnsl-2.21.so
+	      125  0.0028 ixgbe
+	        9 2.0e-04 libpthread-2.21.so
+	        7 1.6e-04 dash
+	        2 4.4e-05 [vdso] (tgid:2502 range:0x7ffd453f9000-0x7ffd453fafff)
+	        2 4.4e-05 [vdso] (tgid:4369 range:0x7ffd453f9000-0x7ffd453fafff)
+	        2 4.4e-05 libattr.so.1.1.0
+	        2 4.4e-05 libdl-2.21.so
+	        1 2.2e-05 [vdso] (tgid:1167 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1254 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1292 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1308 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1311 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1510 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1527 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1570 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1606 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1776 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1831 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1845 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1857 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1923 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:1957 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2013 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2201 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2240 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2293 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2495 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2528 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2545 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2613 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2627 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2688 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2801 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2831 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2919 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2936 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:2943 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3021 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3035 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3170 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3325 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3333 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3448 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3494 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3615 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3727 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:37949 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3812 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:38170 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3831 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3833 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:3838 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:38433 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:38445 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3850 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:38579 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:38672 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3890 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:39073 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39306 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39327 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39345 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39434 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39622 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3974 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:39746 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39854 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:39881 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:3997 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:40077 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40109 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40152 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40383 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40399 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40439 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40462 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4050 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:40592 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40766 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40908 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40974 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:40989 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4102 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:41036 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:41109 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4128 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:41609 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4181 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:41823 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4186 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:42212 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42224 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42246 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42268 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42391 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42396 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42482 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:42578 range:0x7ffd1451b000-0x7ffd1451cfff)
+	        1 2.2e-05 [vdso] (tgid:4273 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4296 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4311 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4314 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4322 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4335 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4350 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4487 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4518 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4582 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4590 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4622 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4656 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4692 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4693 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4712 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4719 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4756 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4773 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4796 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4819 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4828 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4936 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:4945 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5023 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5082 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5115 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5197 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5255 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5258 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5265 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5448 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5452 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5497 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5558 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5608 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5616 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5641 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5695 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5729 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5758 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5807 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5810 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5829 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5888 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5895 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5899 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:5944 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:6024 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:6068 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:6075 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 [vdso] (tgid:6086 range:0x7ffd453f9000-0x7ffd453fafff)
+	        1 2.2e-05 kvm
+	        1 2.2e-05 megaraid_sas
+	        1 2.2e-05 libacl.so.1.1.0
+	        1 2.2e-05 libselinux.so.1
+  1861423 24.7065 true
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	  1816318 97.5769 kallsyms
+	    26755  1.4373 ld-2.21.so
+	    15978  0.8584 libc-2.21.so
+	     2151  0.1156 dash
+	      163  0.0088 ls
+	       20  0.0011 libpthread-2.21.so
+	        9 4.8e-04 libnss_compat-2.21.so
+	        6 3.2e-04 libselinux.so.1
+	        5 2.7e-04 ixgbe
+	        5 2.7e-04 libnsl-2.21.so
+	        3 1.6e-04 libacl.so.1.1.0
+	        2 1.1e-04 libnss_files-2.21.so
+	        2 1.1e-04 libnss_nis-2.21.so
+	        2 1.1e-04 gawk
+	        1 5.4e-05 multitask
+	        1 5.4e-05 libattr.so.1.1.0
+	        1 5.4e-05 libtinfo.so.5.9
+	        1 5.4e-05 libsigsegv.so.2.0.3
+   393738  5.2260 aim_1.sh
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	   382574 97.1646 kallsyms
+	     5912  1.5015 ld-2.21.so
+	     3991  1.0136 libc-2.21.so
+	     1210  0.3073 dash
+	       34  0.0086 ls
+	        9  0.0023 libpthread-2.21.so
+	        2 5.1e-04 ixgbe
+	        2 5.1e-04 libnss_compat-2.21.so
+	        2 5.1e-04 libselinux.so.1
+	        1 2.5e-04 libnsl-2.21.so
+	        1 2.5e-04 libnss_nis-2.21.so
+   367212  4.8740 sh
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	   357428 97.3356 kallsyms
+	     5342  1.4547 ld-2.21.so
+	     3479  0.9474 libc-2.21.so
+	      882  0.2402 dash
+	       59  0.0161 ls
+	        6  0.0016 libpthread-2.21.so
+	        5  0.0014 libselinux.so.1
+	        4  0.0011 ixgbe
+	        2 5.4e-04 libnsl-2.21.so
+	        1 2.7e-04 libacl.so.1.1.0
+	        1 2.7e-04 libattr.so.1.1.0
+	        1 2.7e-04 libm-2.21.so
+	        1 2.7e-04 libnss_compat-2.21.so
+	        1 2.7e-04 libnss_nis-2.21.so
+   174299  2.3135 operf
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    76836 44.0829 libc-2.21.so
+	    55512 31.8487 libstdc++.so.6.0.20
+	    23937 13.7333 operf
+	    18011 10.3334 kallsyms
+	        3  0.0017 ld-2.21.so
+    28923  0.3839 ls
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    23730 82.0454 kallsyms
+	     2477  8.5641 libc-2.21.so
+	     1875  6.4827 ld-2.21.so
+	      690  2.3856 ls
+	       63  0.2178 libpthread-2.21.so
+	       30  0.1037 libselinux.so.1
+	       13  0.0449 libnss_compat-2.21.so
+	        8  0.0277 libacl.so.1.1.0
+	        7  0.0242 libnsl-2.21.so
+	        7  0.0242 libnss_nis-2.21.so
+	        6  0.0207 libnss_files-2.21.so
+	        4  0.0138 dash
+	        4  0.0138 libpcre.so.3.13.1
+	        2  0.0069 libattr.so.1.1.0
+	        2  0.0069 libdl-2.21.so
+	        1  0.0035 [vdso] (tgid:101317 range:0x7ffe0fba9000-0x7ffe0fbaafff)
+	        1  0.0035 [vdso] (tgid:6102 range:0x7fffb8b5f000-0x7fffb8b60fff)
+	        1  0.0035 [vdso] (tgid:67774 range:0x7fff17f6d000-0x7fff17f6efff)
+	        1  0.0035 [vdso] (tgid:76516 range:0x7ffe69793000-0x7ffe69794fff)
+	        1  0.0035 [vdso] (tgid:95040 range:0x7ffde0df1000-0x7ffde0df2fff)
+    25808  0.3425 unknown
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    25571 99.0817 kallsyms
+	      190  0.7362 libc-2.21.so
+	       34  0.1317 ld-2.21.so
+	        5  0.0194 libpthread-2.21.so
+	        3  0.0116 libnss_compat-2.21.so
+	        3  0.0116 libselinux.so.1
+	        1  0.0039 [vdso] (tgid:81703 range:0x7ffe71dc6000-0x7ffe71dc7fff)
+	        1  0.0039 libnss_nis-2.21.so
+    22932  0.3044 libselinux.so.1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    16401 71.5201 kallsyms
+	     4121 17.9705 ld-2.21.so
+	     1670  7.2824 libc-2.21.so
+	      409  1.7835 ls
+	      153  0.6672 libpthread-2.21.so
+	       38  0.1657 dash
+	       28  0.1221 libselinux.so.1
+	       28  0.1221 libnss_compat-2.21.so
+	       24  0.1047 libacl.so.1.1.0
+	       13  0.0567 libattr.so.1.1.0
+	       13  0.0567 libnss_nis-2.21.so
+	        9  0.0392 libdl-2.21.so
+	        7  0.0305 libnss_files-2.21.so
+	        6  0.0262 libnsl-2.21.so
+	        4  0.0174 libpcre.so.3.13.1
+	        1  0.0044 [vdso] (tgid:118477 range:0x7ffdc9dfa000-0x7ffdc9dfbfff)
+	        1  0.0044 [vdso] (tgid:39740 range:0x7ffece7dd000-0x7ffece7defff)
+	        1  0.0044 [vdso] (tgid:40658 range:0x7ffc43bd1000-0x7ffc43bd2fff)
+	        1  0.0044 [vdso] (tgid:42186 range:0x7fffa6797000-0x7fffa6798fff)
+	        1  0.0044 [vdso] (tgid:66271 range:0x7ffdced4a000-0x7ffdced4bfff)
+	        1  0.0044 [vdso] (tgid:67684 range:0x7ffe48bbc000-0x7ffe48bbdfff)
+	        1  0.0044 [vdso] (tgid:70193 range:0x7fffd22c4000-0x7fffd22c5fff)
+	        1  0.0044 [vdso] (tgid:95327 range:0x7ffd8ead2000-0x7ffd8ead3fff)
+    18799  0.2495 libnss_compat-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	    15777 83.9247 kallsyms
+	     1437  7.6440 libc-2.21.so
+	     1080  5.7450 ld-2.21.so
+	      413  2.1969 ls
+	       31  0.1649 libpthread-2.21.so
+	       22  0.1170 libselinux.so.1
+	       10  0.0532 libnss_compat-2.21.so
+	        4  0.0213 libacl.so.1.1.0
+	        4  0.0213 libattr.so.1.1.0
+	        3  0.0160 ixgbe
+	        3  0.0160 libpcre.so.3.13.1
+	        2  0.0106 libdl-2.21.so
+	        2  0.0106 libnsl-2.21.so
+	        2  0.0106 libnss_files-2.21.so
+	        1  0.0053 [vdso] (tgid:102013 range:0x7ffda699f000-0x7ffda69a0fff)
+	        1  0.0053 [vdso] (tgid:120647 range:0x7ffced550000-0x7ffced551fff)
+	        1  0.0053 [vdso] (tgid:121326 range:0x7ffc5215a000-0x7ffc5215bfff)
+	        1  0.0053 [vdso] (tgid:19371 range:0x7ffd445f3000-0x7ffd445f4fff)
+	        1  0.0053 [vdso] (tgid:46467 range:0x7ffc5f7aa000-0x7ffc5f7abfff)
+	        1  0.0053 [vdso] (tgid:71465 range:0x7fff481c2000-0x7fff481c3fff)
+	        1  0.0053 [vdso] (tgid:99285 range:0x7fff7137d000-0x7fff7137efff)
+	        1  0.0053 [vdso] (tgid:99833 range:0x7ffe48960000-0x7ffe48961fff)
+	        1  0.0053 libnss_nis-2.21.so
+     5426  0.0720 rcu_sched
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     5426 100.000 kallsyms
+     4293  0.0570 ls
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     3857 89.8439 kallsyms
+	      212  4.9383 libc-2.21.so
+	      161  3.7503 ld-2.21.so
+	       45  1.0482 ls
+	        7  0.1631 libpthread-2.21.so
+	        6  0.1398 libselinux.so.1
+	        2  0.0466 ixgbe
+	        1  0.0233 [vdso] (tgid:64326 range:0x7fff2e5c4000-0x7fff2e5c5fff)
+	        1  0.0233 libnss_nis-2.21.so
+	        1  0.0233 libpcre.so.3.13.1
+     2879  0.0382 32
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2879 100.000 kallsyms
+     2646  0.0351 1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2646 100.000 kallsyms
+     2474  0.0328 64
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2474 100.000 kallsyms
+     2472  0.0328 dash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2287 92.5162 kallsyms
+	       89  3.6003 ld-2.21.so
+	       73  2.9531 libc-2.21.so
+	       12  0.4854 dash
+	        5  0.2023 ls
+	        3  0.1214 libselinux.so.1
+	        1  0.0405 libnsl-2.21.so
+	        1  0.0405 libpthread-2.21.so
+	        1  0.0405 libreadline.so.6.3
+     2188  0.0290 91
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2188 100.000 kallsyms
+     1732  0.0230 26
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1732 100.000 kallsyms
+     1690  0.0224 76
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1690 100.000 kallsyms
+     1637  0.0217 33
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1637 100.000 kallsyms
+     1495  0.0198 51
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1495 100.000 kallsyms
+     1455  0.0193 libpthread-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1338 91.9588 kallsyms
+	       67  4.6048 libc-2.21.so
+	       34  2.3368 ld-2.21.so
+	       13  0.8935 ls
+	        2  0.1375 libnss_files-2.21.so
+	        1  0.0687 libselinux.so.1
+     1454  0.0193 khugepaged
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1454 100.000 kallsyms
+     1426  0.0189 awk
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1314 92.1459 kallsyms
+	       73  5.1192 ld-2.21.so
+	       20  1.4025 libc-2.21.so
+	       15  1.0519 gawk
+	        4  0.2805 libsigsegv.so.2.0.3
+     1409  0.0187 45
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1409 100.000 kallsyms
+     1380  0.0183 0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1380 100.000 kallsyms
+     1372  0.0182 30
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1372 100.000 kallsyms
+     1313  0.0174 95
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1313 100.000 kallsyms
+     1110  0.0147 67
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1110 100.000 kallsyms
+     1087  0.0144 87
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1087 100.000 kallsyms
+     1079  0.0143 17
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1079 100.000 kallsyms
+     1067  0.0142 2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1067 100.000 kallsyms
+     1037  0.0138 15
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1037 100.000 kallsyms
+     1012  0.0134 42
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1012 100.000 kallsyms
+      968  0.0128 4
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      968 100.000 kallsyms
+      954  0.0127 60
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      953 99.8952 kallsyms
+	        1  0.1048 ixgbe
+      887  0.0118 5
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      887 100.000 kallsyms
+      877  0.0116 tmux
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      422 48.1186 kallsyms
+	      205 23.3751 libc-2.21.so
+	      177 20.1824 tmux
+	       64  7.2976 libevent-2.0.so.5.1.9
+	        5  0.5701 libtinfo.so.5.9
+	        4  0.4561 [vdso] (tgid:3592 range:0x7ffc73b71000-0x7ffc73b72fff)
+      845  0.0112 107
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      845 100.000 kallsyms
+      842  0.0112 84
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      842 100.000 kallsyms
+      831  0.0110 7
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      831 100.000 kallsyms
+      829  0.0110 112
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      829 100.000 kallsyms
+      828  0.0110 19
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      828 100.000 kallsyms
+      824  0.0109 68
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      824 100.000 kallsyms
+      821  0.0109 53
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      821 100.000 kallsyms
+      811  0.0108 88
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      811 100.000 kallsyms
+      790  0.0105 9
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      790 100.000 kallsyms
+      785  0.0104 37
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      785 100.000 kallsyms
+      771  0.0102 20
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      771 100.000 kallsyms
+      771  0.0102 89
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      771 100.000 kallsyms
+      765  0.0102 12
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      765 100.000 kallsyms
+      711  0.0094 libnss_files-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      668 93.9522 kallsyms
+	       28  3.9381 ld-2.21.so
+	       10  1.4065 libc-2.21.so
+	        2  0.2813 ls
+	        1  0.1406 libnss_files-2.21.so
+	        1  0.1406 libacl.so.1.1.0
+	        1  0.1406 libselinux.so.1
+      700  0.0093 99
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      700 100.000 kallsyms
+      696  0.0092 58
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      696 100.000 kallsyms
+      694  0.0092 57
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      694 100.000 kallsyms
+      685  0.0091 47
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      685 100.000 kallsyms
+      684  0.0091 86
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      684 100.000 kallsyms
+      677  0.0090 3
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      677 100.000 kallsyms
+      661  0.0088 70
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      661 100.000 kallsyms
+      649  0.0086 116
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      649 100.000 kallsyms
+      641  0.0085 libc-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      570 88.9236 kallsyms
+	       31  4.8362 libc-2.21.so
+	       30  4.6802 ld-2.21.so
+	        5  0.7800 dash
+	        4  0.6240 ls
+	        1  0.1560 libattr.so.1.1.0
+      641  0.0085 34
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      641 100.000 kallsyms
+      617  0.0082 16
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      617 100.000 kallsyms
+      616  0.0082 18
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      616 100.000 kallsyms
+      614  0.0081 77
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      614 100.000 kallsyms
+      591  0.0078 6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      591 100.000 kallsyms
+      589  0.0078 systemd-journald
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      351 59.5925 kallsyms
+	      155 26.3158 systemd-journald
+	       80 13.5823 libc-2.21.so
+	        2  0.3396 libpthread-2.21.so
+	        1  0.1698 [vdso] (tgid:2208 range:0x7fff425f9000-0x7fff425fafff)
+      581  0.0077 48
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      581 100.000 kallsyms
+      570  0.0076 73
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      570 100.000 kallsyms
+      567  0.0075 79
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      567 100.000 kallsyms
+      562  0.0075 109
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      562 100.000 kallsyms
+      561  0.0074 96
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      561 100.000 kallsyms
+      543  0.0072 56
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      543 100.000 kallsyms
+      539  0.0072 71
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      539 100.000 kallsyms
+      533  0.0071 24
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      533 100.000 kallsyms
+      530  0.0070 13
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      530 100.000 kallsyms
+      528  0.0070 66
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      528 100.000 kallsyms
+      527  0.0070 108
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      527 100.000 kallsyms
+      524  0.0070 75
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      524 100.000 kallsyms
+      519  0.0069 105
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      519 100.000 kallsyms
+      515  0.0068 69
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      515 100.000 kallsyms
+      513  0.0068 111
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      513 100.000 kallsyms
+      502  0.0067 46
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      502 100.000 kallsyms
+      497  0.0066 94
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      497 100.000 kallsyms
+      488  0.0065 65
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      488 100.000 kallsyms
+      478  0.0063 10
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      478 100.000 kallsyms
+      477  0.0063 63
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      477 100.000 kallsyms
+      473  0.0063 98
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      473 100.000 kallsyms
+      465  0.0062 5:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      293 63.0108 ixgbe
+	      172 36.9892 kallsyms
+      450  0.0060 97
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      450 100.000 kallsyms
+      449  0.0060 25
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      449 100.000 kallsyms
+      449  0.0060 27
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      449 100.000 kallsyms
+      447  0.0059 35
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      447 100.000 kallsyms
+      442  0.0059 104
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      442 100.000 kallsyms
+      439  0.0058 93
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      439 100.000 kallsyms
+      435  0.0058 41
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      435 100.000 kallsyms
+      432  0.0057 21
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      432 100.000 kallsyms
+      431  0.0057 31
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      431 100.000 kallsyms
+      428  0.0057 14
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      428 100.000 kallsyms
+      420  0.0056 103
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      420 100.000 kallsyms
+      416  0.0055 38
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      416 100.000 kallsyms
+      398  0.0053 11
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      398 100.000 kallsyms
+      379  0.0050 117
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      379 100.000 kallsyms
+      378  0.0050 59
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      378 100.000 kallsyms
+      370  0.0049 40
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      370 100.000 kallsyms
+      365  0.0048 72
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      365 100.000 kallsyms
+      360  0.0048 61
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      360 100.000 kallsyms
+      359  0.0048 39
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      359 100.000 kallsyms
+      352  0.0047 sync
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      344 97.7273 kallsyms
+	        5  1.4205 ld-2.21.so
+	        3  0.8523 libc-2.21.so
+      348  0.0046 43
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      348 100.000 kallsyms
+      347  0.0046 118
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      347 100.000 kallsyms
+      340  0.0045 44
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      340 100.000 kallsyms
+      333  0.0044 101
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      333 100.000 kallsyms
+      321  0.0043 36
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      321 100.000 kallsyms
+      318  0.0042 74
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      318 100.000 kallsyms
+      316  0.0042 100
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      316 100.000 kallsyms
+      314  0.0042 85
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      314 100.000 kallsyms
+      308  0.0041 90
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      308 100.000 kallsyms
+      305  0.0040 23
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      305 100.000 kallsyms
+      303  0.0040 38
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      303 100.000 kallsyms
+      303  0.0040 119
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      303 100.000 kallsyms
+      302  0.0040 41
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      302 100.000 kallsyms
+      297  0.0039 102
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      297 100.000 kallsyms
+      294  0.0039 103
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      294 100.000 kallsyms
+      292  0.0039 45
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      291 99.6575 kallsyms
+	        1  0.3425 ixgbe
+      292  0.0039 22
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      292 100.000 kallsyms
+      292  0.0039 62
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      292 100.000 kallsyms
+      291  0.0039 113
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      291 100.000 kallsyms
+      289  0.0038 0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      289 100.000 kallsyms
+      285  0.0038 46
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      284 99.6491 kallsyms
+	        1  0.3509 ixgbe
+      285  0.0038 75
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      285 100.000 kallsyms
+      281  0.0037 35
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      279 99.2883 kallsyms
+	        2  0.7117 ixgbe
+      278  0.0037 97
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      278 100.000 kallsyms
+      276  0.0037 72
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      276 100.000 kallsyms
+      275  0.0037 6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      274 99.6364 kallsyms
+	        1  0.3636 ixgbe
+      275  0.0037 50
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      275 100.000 kallsyms
+      274  0.0036 29
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      271 98.9051 kallsyms
+	        3  1.0949 ixgbe
+      274  0.0036 37
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      273 99.6350 kallsyms
+	        1  0.3650 ixgbe
+      273  0.0036 78
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      273 100.000 kallsyms
+      273  0.0036 8
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      273 100.000 kallsyms
+      272  0.0036 36
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      271 99.6324 kallsyms
+	        1  0.3676 ixgbe
+      272  0.0036 49
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      272 100.000 kallsyms
+      272  0.0036 92
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      272 100.000 kallsyms
+      271  0.0036 20
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      269 99.2620 kallsyms
+	        2  0.7380 ixgbe
+      271  0.0036 47
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      271 100.000 kallsyms
+      268  0.0036 14
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      266 99.2537 kallsyms
+	        2  0.7463 ixgbe
+      268  0.0036 48
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      268 100.000 kallsyms
+      267  0.0035 104
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      267 100.000 kallsyms
+      267  0.0035 65
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      267 100.000 kallsyms
+      263  0.0035 7
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      263 100.000 kallsyms
+      263  0.0035 28
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      263 100.000 kallsyms
+      262  0.0035 11
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      261 99.6183 kallsyms
+	        1  0.3817 ixgbe
+      260  0.0035 28
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      259 99.6154 kallsyms
+	        1  0.3846 ixgbe
+      258  0.0034 110
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      258 100.000 kallsyms
+      258  0.0034 57
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      255 98.8372 kallsyms
+	        3  1.1628 ixgbe
+      257  0.0034 32
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      257 100.000 kallsyms
+      255  0.0034 34
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      255 100.000 kallsyms
+      254  0.0034 31
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      254 100.000 kallsyms
+      253  0.0034 5
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      253 100.000 kallsyms
+      251  0.0033 33
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      250 99.6016 kallsyms
+	        1  0.3984 ixgbe
+      251  0.0033 4
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      250 99.6016 kallsyms
+	        1  0.3984 ixgbe
+      251  0.0033 60
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      250 99.6016 kallsyms
+	        1  0.3984 ixgbe
+      251  0.0033 52
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      251 100.000 kallsyms
+      250  0.0033 40
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      250 100.000 kallsyms
+      249  0.0033 56
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      248 99.5984 kallsyms
+	        1  0.4016 ixgbe
+      249  0.0033 82
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      249 100.000 kallsyms
+      247  0.0033 libdl-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      233 94.3320 kallsyms
+	        8  3.2389 libc-2.21.so
+	        4  1.6194 ld-2.21.so
+	        1  0.4049 ls
+	        1  0.4049 libselinux.so.1
+      246  0.0033 15
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      243 98.7805 kallsyms
+	        3  1.2195 ixgbe
+      245  0.0033 116
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      245 100.000 kallsyms
+      245  0.0033 118
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      245 100.000 kallsyms
+      244  0.0032 26
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      244 100.000 kallsyms
+      243  0.0032 111
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      243 100.000 kallsyms
+      242  0.0032 107
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      242 100.000 kallsyms
+      242  0.0032 44
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      241 99.5868 kallsyms
+	        1  0.4132 ixgbe
+      242  0.0032 50
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      242 100.000 kallsyms
+      241  0.0032 53
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      240 99.5851 kallsyms
+	        1  0.4149 ixgbe
+      240  0.0032 10
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      239 99.5833 kallsyms
+	        1  0.4167 ixgbe
+      240  0.0032 3
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      238 99.1667 kallsyms
+	        2  0.8333 ixgbe
+      240  0.0032 39
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      239 99.5833 kallsyms
+	        1  0.4167 ixgbe
+      240  0.0032 77
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      240 100.000 kallsyms
+      239  0.0032 13
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      237 99.1632 kallsyms
+	        2  0.8368 ixgbe
+      239  0.0032 67
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      239 100.000 kallsyms
+      237  0.0031 68
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      237 100.000 kallsyms
+      236  0.0031 49
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      235 99.5763 kallsyms
+	        1  0.4237 ixgbe
+      234  0.0031 100
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      234 100.000 kallsyms
+      233  0.0031 102
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      233 100.000 kallsyms
+      233  0.0031 27
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      233 100.000 kallsyms
+      231  0.0031 119
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      231 100.000 kallsyms
+      231  0.0031 2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      231 100.000 kallsyms
+      231  0.0031 76
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      231 100.000 kallsyms
+      231  0.0031 82
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      231 100.000 kallsyms
+      230  0.0031 54
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      230 100.000 kallsyms
+      230  0.0031 110
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      230 100.000 kallsyms
+      230  0.0031 55
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      230 100.000 kallsyms
+      229  0.0030 irqbalance
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      180 78.6026 kallsyms
+	       25 10.9170 libc-2.21.so
+	       20  8.7336 irqbalance
+	        4  1.7467 libglib-2.0.so.0.4400.0
+      227  0.0030 55
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      226 99.5595 kallsyms
+	        1  0.4405 ixgbe
+      226  0.0030 117
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      226 100.000 kallsyms
+      226  0.0030 22
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      226 100.000 kallsyms
+      225  0.0030 52
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      224 99.5556 kallsyms
+	        1  0.4444 ixgbe
+      224  0.0030 69
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      224 100.000 kallsyms
+      223  0.0030 66
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      223 100.000 kallsyms
+      223  0.0030 95
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      223 100.000 kallsyms
+      222  0.0029 71
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      222 100.000 kallsyms
+      220  0.0029 106
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      220 100.000 kallsyms
+      220  0.0029 114
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      220 100.000 kallsyms
+      219  0.0029 113
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      219 100.000 kallsyms
+      219  0.0029 81
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      219 100.000 kallsyms
+      218  0.0029 62
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      218 100.000 kallsyms
+      218  0.0029 94
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      218 100.000 kallsyms
+      216  0.0029 8
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      216 100.000 kallsyms
+      215  0.0029 112
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      215 100.000 kallsyms
+      215  0.0029 17
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      215 100.000 kallsyms
+      215  0.0029 73
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      215 100.000 kallsyms
+      215  0.0029 86
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      215 100.000 kallsyms
+      214  0.0028 9
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      213 99.5327 kallsyms
+	        1  0.4673 ixgbe
+      213  0.0028 64
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      213 100.000 kallsyms
+      213  0.0028 70
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      213 100.000 kallsyms
+      212  0.0028 74
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      212 100.000 kallsyms
+      211  0.0028 115
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      211 100.000 kallsyms
+      211  0.0028 18
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      209 99.0521 kallsyms
+	        2  0.9479 ixgbe
+      211  0.0028 88
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      211 100.000 kallsyms
+      211  0.0028 92
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      211 100.000 kallsyms
+      210  0.0028 23
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 99.0476 kallsyms
+	        2  0.9524 ixgbe
+      209  0.0028 63
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      209 100.000 kallsyms
+      208  0.0028 109
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 100.000 kallsyms
+      208  0.0028 58
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 100.000 kallsyms
+      208  0.0028 99
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 100.000 kallsyms
+      208  0.0028 u243:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      204 98.0769 kallsyms
+	        4  1.9231 megaraid_sas
+      208  0.0028 115
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 100.000 kallsyms
+      208  0.0028 29
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      208 100.000 kallsyms
+      207  0.0027 30
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      205 99.0338 kallsyms
+	        2  0.9662 ixgbe
+      207  0.0027 84
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      207 100.000 kallsyms
+      206  0.0027 25
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      204 99.0291 kallsyms
+	        2  0.9709 ixgbe
+      205  0.0027 101
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      205 100.000 kallsyms
+      205  0.0027 90
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      205 100.000 kallsyms
+      205  0.0027 91
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      205 100.000 kallsyms
+      204  0.0027 sda2-8
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      201 98.5294 kallsyms
+	        3  1.4706 megaraid_sas
+      204  0.0027 1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      203 99.5098 kallsyms
+	        1  0.4902 ixgbe
+      203  0.0027 42
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      202 99.5074 kallsyms
+	        1  0.4926 ixgbe
+      203  0.0027 81
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      203 100.000 kallsyms
+      203  0.0027 96
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      203 100.000 kallsyms
+      202  0.0027 21
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      201 99.5050 kallsyms
+	        1  0.4950 ixgbe
+      202  0.0027 78
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      202 100.000 kallsyms
+      201  0.0027 80
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      201 100.000 kallsyms
+      200  0.0027 43
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      197 98.5000 kallsyms
+	        3  1.5000 ixgbe
+      200  0.0027 93
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      200 100.000 kallsyms
+      199  0.0026 19
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      197 98.9950 kallsyms
+	        2  1.0050 ixgbe
+      196  0.0026 59
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      196 100.000 kallsyms
+      195  0.0026 61
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      195 100.000 kallsyms
+      195  0.0026 114
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      195 100.000 kallsyms
+      194  0.0026 83
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      194 100.000 kallsyms
+      194  0.0026 54
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      194 100.000 kallsyms
+      192  0.0025 12
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      192 100.000 kallsyms
+      192  0.0025 79
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      192 100.000 kallsyms
+      191  0.0025 80
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      191 100.000 kallsyms
+      190  0.0025 24
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      189 99.4737 kallsyms
+	        1  0.5263 ixgbe
+      189  0.0025 85
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      189 100.000 kallsyms
+      189  0.0025 rsyslogd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       95 50.2646 kallsyms
+	       48 25.3968 rsyslogd
+	       29 15.3439 libc-2.21.so
+	       14  7.4074 libpthread-2.21.so
+	        2  1.0582 [vdso] (tgid:2851 range:0x7ffe821fe000-0x7ffe821fffff)
+	        1  0.5291 imuxsock.so
+      188  0.0025 105
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      188 100.000 kallsyms
+      186  0.0025 98
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      186 100.000 kallsyms
+      185  0.0025 108
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      185 100.000 kallsyms
+      181  0.0024 87
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      181 100.000 kallsyms
+      180  0.0024 83
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      180 100.000 kallsyms
+      164  0.0022 51
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      164 100.000 kallsyms
+      149  0.0020 16
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      148 99.3289 kallsyms
+	        1  0.6711 ixgbe
+      147  0.0020 89
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      147 100.000 kallsyms
+      147  0.0020 110:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      145 98.6395 kallsyms
+	        2  1.3605 igb
+      143  0.0019 106
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      143 100.000 kallsyms
+      135  0.0018 ld-2.21.so
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      113 83.7037 kallsyms
+	       11  8.1481 libc-2.21.so
+	        9  6.6667 ld-2.21.so
+	        1  0.7407 ls
+	        1  0.7407 libacl.so.1.1.0
+       84  0.0011 u244:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       83 98.8095 kallsyms
+	        1  1.1905 megaraid_sas
+       70 9.3e-04 ifconfig
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       64 91.4286 kallsyms
+	        4  5.7143 libc-2.21.so
+	        2  2.8571 ld-2.21.so
+       64 8.5e-04 90:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       64 100.000 kallsyms
+       63 8.4e-04 dying
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       63 100.000 kallsyms
+       56 7.4e-04 tar
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       37 66.0714 kallsyms
+	        7 12.5000 ld-2.21.so
+	        6 10.7143 libc-2.21.so
+	        5  8.9286 tar
+	        1  1.7857 libpthread-2.21.so
+       56 7.4e-04 104:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       56 100.000 kallsyms
+       56 7.4e-04 sshd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 62.5000 kallsyms
+	        9 16.0714 libcrypto.so.1.0.0
+	        8 14.2857 sshd
+	        4  7.1429 libc-2.21.so
+       55 7.3e-04 grep
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 76.3636 kallsyms
+	        6 10.9091 libc-2.21.so
+	        5  9.0909 ld-2.21.so
+	        2  3.6364 grep
+       54 7.2e-04 95:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       54 100.000 kallsyms
+       53 7.0e-04 53:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       53 100.000 kallsyms
+       52 6.9e-04 96:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       52 100.000 kallsyms
+       50 6.6e-04 khungtaskd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       50 100.000 kallsyms
+       49 6.5e-04 su
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       43 87.7551 kallsyms
+	        3  6.1224 libc-2.21.so
+	        1  2.0408 ld-2.21.so
+	        1  2.0408 libpam.so.0.83.1
+	        1  2.0408 pam_permit.so
+       48 6.4e-04 u240:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       40 83.3333 kallsyms
+	        4  8.3333 edac_core
+	        4  8.3333 sb_edac
+       46 6.1e-04 107:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       46 100.000 kallsyms
+       46 6.1e-04 118:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       46 100.000 kallsyms
+       46 6.1e-04 85:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       46 100.000 kallsyms
+       45 6.0e-04 13:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       45 100.000 kallsyms
+       45 6.0e-04 88:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       45 100.000 kallsyms
+       45 6.0e-04 91:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       45 100.000 kallsyms
+       45 6.0e-04 97:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       45 100.000 kallsyms
+       44 5.8e-04 50:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       44 100.000 kallsyms
+       43 5.7e-04 103:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       43 100.000 kallsyms
+       43 5.7e-04 119:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       43 100.000 kallsyms
+       43 5.7e-04 79:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       43 100.000 kallsyms
+       42 5.6e-04 108:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 100.000 kallsyms
+       42 5.6e-04 117:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 100.000 kallsyms
+       42 5.6e-04 26:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 100.000 kallsyms
+       42 5.6e-04 77:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 100.000 kallsyms
+       42 5.6e-04 86:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       42 100.000 kallsyms
+       41 5.4e-04 109:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       41 100.000 kallsyms
+       41 5.4e-04 52:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       41 100.000 kallsyms
+       41 5.4e-04 98:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       41 100.000 kallsyms
+       41 5.4e-04 99:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       41 100.000 kallsyms
+       41 5.4e-04 9:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       41 100.000 kallsyms
+       40 5.3e-04 16:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       40 100.000 kallsyms
+       40 5.3e-04 35:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       40 100.000 kallsyms
+       40 5.3e-04 8:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       40 100.000 kallsyms
+       39 5.2e-04 49:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       39 100.000 kallsyms
+       39 5.2e-04 82:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       39 100.000 kallsyms
+       39 5.2e-04 83:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       39 100.000 kallsyms
+       39 5.2e-04 93:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       39 100.000 kallsyms
+       38 5.0e-04 47:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 100.000 kallsyms
+       38 5.0e-04 58:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 100.000 kallsyms
+       38 5.0e-04 6:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 100.000 kallsyms
+       38 5.0e-04 81:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 100.000 kallsyms
+       38 5.0e-04 92:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       38 100.000 kallsyms
+       37 4.9e-04 106:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       37 100.000 kallsyms
+       37 4.9e-04 36:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       37 100.000 kallsyms
+       37 4.9e-04 41:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       37 100.000 kallsyms
+       37 4.9e-04 u240:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       31 83.7838 kallsyms
+	        5 13.5135 sb_edac
+	        1  2.7027 edac_core
+       36 4.8e-04 14:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 21:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 24:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 3:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 44:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 61:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       36 4.8e-04 76:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       36 100.000 kallsyms
+       35 4.6e-04 113:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 100.000 kallsyms
+       35 4.6e-04 19:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 100.000 kallsyms
+       35 4.6e-04 7:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 100.000 kallsyms
+       35 4.6e-04 80:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 100.000 kallsyms
+       34 4.5e-04 27:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 37:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 38:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 64:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 74:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 78:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       34 4.5e-04 89:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       34 100.000 kallsyms
+       33 4.4e-04 100:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 102:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 10:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 23:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 28:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 30:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 46:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 59:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 60:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       33 100.000 kallsyms
+       33 4.4e-04 accounts-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       14 42.4242 kallsyms
+	       12 36.3636 libglib-2.0.so.0.4400.0
+	        5 15.1515 libc-2.21.so
+	        2  6.0606 libpthread-2.21.so
+       32 4.2e-04 12:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       32 4.2e-04 20:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       32 4.2e-04 2:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       32 4.2e-04 34:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       32 4.2e-04 4:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       32 4.2e-04 94:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       32 100.000 kallsyms
+       31 4.1e-04 bash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 87.0968 kallsyms
+	        2  6.4516 bash
+	        1  3.2258 libc-2.21.so
+	        1  3.2258 libnsl-2.21.so
+       31 4.1e-04 39:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       31 100.000 kallsyms
+       31 4.1e-04 54:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       31 100.000 kallsyms
+       30 4.0e-04 0:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 116:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 15:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 22:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 25:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 31:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 33:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 57:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 62:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       30 4.0e-04 70:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       30 100.000 kallsyms
+       29 3.8e-04 112:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       29 100.000 kallsyms
+       29 3.8e-04 42:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       29 100.000 kallsyms
+       29 3.8e-04 65:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       29 100.000 kallsyms
+       29 3.8e-04 66:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       29 100.000 kallsyms
+       28 3.7e-04 101:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       28 100.000 kallsyms
+       28 3.7e-04 111:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       28 100.000 kallsyms
+       28 3.7e-04 17:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       28 100.000 kallsyms
+       28 3.7e-04 51:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       28 100.000 kallsyms
+       28 3.7e-04 69:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       28 100.000 kallsyms
+       27 3.6e-04 114:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       27 3.6e-04 29:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       27 3.6e-04 43:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       27 3.6e-04 67:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       27 3.6e-04 72:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       27 3.6e-04 87:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       27 100.000 kallsyms
+       26 3.5e-04 105:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       26 100.000 kallsyms
+       26 3.5e-04 18:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       26 100.000 kallsyms
+       26 3.5e-04 45:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       26 100.000 kallsyms
+       26 3.5e-04 75:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       26 100.000 kallsyms
+       25 3.3e-04 71:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       25 100.000 kallsyms
+       25 3.3e-04 73:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       25 100.000 kallsyms
+       25 3.3e-04 84:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       25 100.000 kallsyms
+       24 3.2e-04 32:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       24 100.000 kallsyms
+       24 3.2e-04 u241:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       24 100.000 kallsyms
+       23 3.1e-04 115:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       23 100.000 kallsyms
+       23 3.1e-04 11:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       23 100.000 kallsyms
+       23 3.1e-04 48:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       23 100.000 kallsyms
+       22 2.9e-04 63:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       22 100.000 kallsyms
+       21 2.8e-04 1:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       21 100.000 kallsyms
+       21 2.8e-04 56:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       21 100.000 kallsyms
+       20 2.7e-04 40:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       20 100.000 kallsyms
+       20 2.7e-04 68:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       20 100.000 kallsyms
+       20 2.7e-04 66
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       20 100.000 kallsyms
+       20 2.7e-04 70
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       20 100.000 kallsyms
+       19 2.5e-04 55:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       19 100.000 kallsyms
+       19 2.5e-04 69
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       19 100.000 kallsyms
+       15 2.0e-04 64
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       15 100.000 kallsyms
+       15 2.0e-04 67
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       15 100.000 kallsyms
+       14 1.9e-04 65
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       14 100.000 kallsyms
+       13 1.7e-04 systemd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       10 76.9231 kallsyms
+	        2 15.3846 systemd
+	        1  7.6923 libc-2.21.so
+       13 1.7e-04 32
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 100.000 kallsyms
+       13 1.7e-04 71
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 100.000 kallsyms
+       13 1.7e-04 81
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 100.000 kallsyms
+       13 1.7e-04 90
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 100.000 kallsyms
+       12 1.6e-04 41
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       12 100.000 kallsyms
+       12 1.6e-04 68
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       12 100.000 kallsyms
+       12 1.6e-04 72
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       12 100.000 kallsyms
+       11 1.5e-04 63
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       11 100.000 kallsyms
+       11 1.5e-04 7
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       11 100.000 kallsyms
+       11 1.5e-04 96
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       11 100.000 kallsyms
+       10 1.3e-04 109
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       10 100.000 kallsyms
+       10 1.3e-04 58
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       10 100.000 kallsyms
+        9 1.2e-04 0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 10
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 100
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 110
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 3
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 31
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 39
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 47
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 53
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 54
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 61
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 73
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        9 1.2e-04 8
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        9 100.000 kallsyms
+        8 1.1e-04 1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 101
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 108
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 12
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 16
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 20
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 34
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 4
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 55
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 59
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 83
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 9
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        8 1.1e-04 98
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        8 100.000 kallsyms
+        7 9.3e-05 103
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 104
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 106
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 107
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 13
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 14
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 15
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 30
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 44
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 5
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 50
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 52
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 56
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 75
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        7 9.3e-05 95
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 kallsyms
+        6 8.0e-05 111
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 17
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 21
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 25
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 36
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 46
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 57
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 60
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 74
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 76
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 78
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 79
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 80
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 82
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 84
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 87
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 89
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 94
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        6 8.0e-05 99
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        6 100.000 kallsyms
+        5 6.6e-05 102
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 105
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 113
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 116
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 24
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 28
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 40
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 45
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 49
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 62
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 86
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 92
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        5 6.6e-05 93
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 100.000 kallsyms
+        4 5.3e-05 11
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 112
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 114
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 117
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 118
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 18
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 19
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 22
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 26
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 35
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 48
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 51
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 77
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 85
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        4 5.3e-05 97
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        4 100.000 kallsyms
+        3 4.0e-05 u248:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        3 4.0e-05 119
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        3 4.0e-05 27
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        3 4.0e-05 33
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        3 4.0e-05 43
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        3 4.0e-05 91
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        3 100.000 kallsyms
+        2 2.7e-05 35:1H
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 115
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 29
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 37
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 38
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 42
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        2 2.7e-05 88
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 kallsyms
+        1 1.3e-05 kthreadd
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms
+        1 1.3e-05 1:0H
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms
+        1 1.3e-05 43:1H
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms
+        1 1.3e-05 u242:1
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms
+        1 1.3e-05 u246:0
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms
+        1 1.3e-05 u248:2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 kallsyms

@@ -1,0 +1,6 @@
+mkdir /media/aim7
+rm -rf /media/aim7/*
+mknod -m 660 /dev/ram b 1 1
+dd if=/dev/zero of=/dev/ram0 bs=1K count=16K
+mkfs -t ext4 -m 0 /dev/ram0 1024000
+mount -t ext4 /dev/ram0 /media/aim7
